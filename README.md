@@ -8,4 +8,4 @@ This repository only has some POC code for a protection and a premade DLL. I wil
 As you can see; The call to MSG_ReadShort determines the size of the next block of data being read into the allocated buffer of 512. Manipulating the short in the sent message enables arbitrary code execution. This RCE can be defeated quite easily by doing the following
 
 # Defeating this exploit
-![Protection Code]()
+![Protection Code](https://github.com/Peribunt/MW3-RCE1/blob/main/ProtPOC.png?raw=true)
