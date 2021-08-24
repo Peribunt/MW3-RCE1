@@ -14,5 +14,5 @@ By hooking `MSG_ReadData` and checking if the return address lands on the addres
 If this value is greater than the buffer length, we simply reset it to be fixed to the buffer length
 
 # Premade Executable
-If you don't have any prior knowledge about programming or computer science, don't worry!
+If you don't have any prior knowledge about programming or vulnerabilities, don't worry!
 You can download a premade executable [Here](https://github.com/Peribunt/MW3-RCE1/raw/main/MemberJoinPatch.exe)
