@@ -13,5 +13,6 @@ As you can see; The call to `MSG_ReadShort` determines the size of the next bloc
 By hooking `MSG_ReadData` and checking if the return address lands on the address ater the correct call, you can defeat this exploit by simply checking the `dwReadLen` value.
 If this value is greater than the buffer length, we simply reset it to be fixed to the buffer length
 
-#Premade Executable
-![Download]()
+# Premade Executable
+If you don't have any prior knowledge about programming or coputer science, don't worry!
+You can download a premade executable ![Here]
